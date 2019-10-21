@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route } from 'react-router';
 import { Link } from 'react-router-dom';
-import SignInContainer from './SignIn';
+import StatefulTest from './StatefulTest';
 
 export default function() {
   return (
@@ -10,14 +10,14 @@ export default function() {
         exact
         path='/'
         render={() =>
-          <Link to='/sign-in'>Sign In!</Link>
+          <Link to='/state-test'>Test!</Link>
         }
       />
       <br />
       <Route
         exact
-        path='/sign-in'
-        component={SignInContainer}
+        path='/state-test'
+        component={StatefulTest}
       />
     </div>
   )

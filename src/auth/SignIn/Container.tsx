@@ -5,7 +5,7 @@ import Form from './Form';
 export default function Container() {
   const history = useHistory();
   const handleSubmit = (email: string, password: string) => {
-    console.log('sign in with', email, password);
+    console.debug('sign in with', email, password);
     history.push('/')
   };
   return (

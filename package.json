@@ -20,11 +20,18 @@
     "typescript": "3.6.4",
     "yup": "^0.27.0"
   },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "tslint-config-prettier": "1.6.0",
+    "tslint-react": "^4.1.0",
+    "tslint-react-a11y": "^1.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "tslint -p . -c tslint.json"
   },
   "eslintConfig": {
     "extends": "react-app"
