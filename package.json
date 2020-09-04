@@ -11,7 +11,7 @@
     "@types/react-router-dom": "^5.1.0",
     "@types/yup": "^0.26.24",
     "formik": "^1.5.8",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-router": "^5.1.2",
